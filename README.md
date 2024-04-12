@@ -51,16 +51,6 @@ To install Unet_with_VAE, follow these steps:
 git clone https://github.com/TANGhuiq/Unet_with_VAE.git
 ```
 
-## Contributing to Unet_with_VAE
-To contribute to Unet_with_VAE, follow these steps:
-1. Fork this repository.
-2. Create a branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
-
-Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
-
 ## Contributors
 Thanks to the following people who have contributed to this project:
 - [@TANGhuiq](https://github.com/TANGhuiq) (The original creator)
@@ -70,6 +60,3 @@ If you want to contact me you can reach me at <tanghuiqin2023@163.com>.
 
 ## License
 This project uses the following license: [MIT](https://opensource.org/licenses/MIT).
-```
-
-You should modify the template according to the specifics of your project, including adding or removing sections as necessary.
