@@ -9,7 +9,7 @@ Unet_with_VAE is a deep learning framework that integrates U-Net, a convolutiona
 - **Cross-device Compatibility**: Tests the model's effectiveness across different medical imaging devices.
 
 ## Prerequisites
-Before you begin, ensure you have met the following environment.yml:
+Before you begin, ensure you have met the following TF2.10-cuda.yml:
 name: TF2.10-cuda
 channels:
   - conda-forge
