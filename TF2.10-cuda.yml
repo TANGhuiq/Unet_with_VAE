@@ -1,0 +1,34 @@
+name: TF2.10-cuda
+channels:
+    - conda-forge
+    - defaults
+      # - nvidia
+dependencies:
+    - python=3.9
+    - pip
+    - matplotlib
+    - cudnn
+      #    - cupti
+    - cudatoolkit
+    - pip:
+        - tensorflow==2.10
+        - tensorflow-addons[tensorflow]
+        - tensorflow-io
+        - tensorboard
+        - keras==2.10
+        - tqdm
+        - pandas
+        - pillow
+        - simpleITK
+        - itk
+        - medpy
+        - scikit-learn
+        - scikit-image
+        - jupyterlab
+        - nibabel
+        - opencv-python
+        - opencv-contrib-python
+        - h5py
+        - gpustat
+        - spyder-kernels==0.*
+
