@@ -10,39 +10,39 @@ Unet_with_VAE is a deep learning framework that integrates U-Net, a convolutiona
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
-name: TF2.10-cuda
-channels:
-    - conda-forge
-    - defaults
-      # - nvidia
-dependencies:
-    - python=3.9
-    - pip
-    - matplotlib
-    - cudnn
-      #    - cupti
-    - cudatoolkit
-    - pip:
-        - tensorflow==2.10
-        - tensorflow-addons[tensorflow]
-        - tensorflow-io
-        - tensorboard
-        - keras==2.10
-        - tqdm
-        - pandas
-        - pillow
-        - simpleITK
-        - itk
-        - medpy
-        - scikit-learn
-        - scikit-image
-        - jupyterlab
-        - nibabel
-        - opencv-python
-        - opencv-contrib-python
-        - h5py
-        - gpustat
-        - spyder-kernels==0.*
+--name: TF2.10-cuda
+--channels:
+--    - conda-forge
+--    - defaults
+--      # - nvidia
+--dependencies:
+--    - python=3.9
+--    - pip
+--    - matplotlib
+--    - cudnn
+--      #    - cupti
+--    - cudatoolkit
+--    - pip:
+--        - tensorflow==2.10
+--        - tensorflow-addons[tensorflow]
+--        - tensorflow-io
+--        - tensorboard
+--        - keras==2.10
+--        - tqdm
+--        - pandas
+--        - pillow
+--        - simpleITK
+--        - itk
+--        - medpy
+--        - scikit-learn
+--        - scikit-image
+--        - jupyterlab
+--        - nibabel
+--        - opencv-python
+--        - opencv-contrib-python
+--        - h5py
+--        - gpustat
+--        - spyder-kernels==0.*
         
 ## Installation
 To install Unet_with_VAE, follow these steps:
